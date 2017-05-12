@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TwoButtonDialog</string>
+    <string name="click_for_dialog">点击弹出对话框</string>
+</resources>
