@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
    public void click(View v){
        TwoButtonDialog.Builder builder = new TwoButtonDialog.Builder(MainActivity.this);
-       builder.setTitle("标题")
-               .setMessage("这是标题！")
+       builder.setTitle("这是标题")
+               .setMessage("这是提示消息！")
                .setNegativeButton("左按钮", new DialogInterface.OnClickListener() {
                    @Override
                    public void onClick(DialogInterface dialog, int which) {
